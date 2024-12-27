@@ -1,0 +1,25 @@
+.word {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 2rem;
+}
+
+.letter {
+	height: 40px;
+	width: 40px;
+	background-color: #1b1818;
+	display: flex;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.125rem;
+	border-bottom: 1px solid #f9f4da;
+}
+
+.missed {
+	background-color: #e75244;
+}
+.guessed {
+	background-color: #38aa30;
+}
